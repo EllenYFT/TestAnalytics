@@ -1,6 +1,7 @@
 # exclude data from source control by default
 
 /data/*
+!./.gitkeep
 !/data/raw
 /data/raw/*
 !./data/raw/.gitignore
