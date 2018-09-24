@@ -1,10 +1,9 @@
 # exclude data from source control by default
 
-/*
-#!./.gitkeep
-#!/data/raw
-#/data/raw/*
-#!./data/raw/.gitignore
+/data/external/*
+!./data/external/.gitkeep
+/data/interim/*
+!./data/interim/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
