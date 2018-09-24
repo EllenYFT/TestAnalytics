@@ -1,7 +1,10 @@
 # exclude data from source control by default
 
+/data/*
+!/data/external
 /data/external/*
 !./data/external/.gitkeep
+!/data/interim
 /data/interim/*
 !./data/interim/.gitkeep
 
