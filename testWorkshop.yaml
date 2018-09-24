@@ -1,7 +1,0 @@
-name: testWorkshop
-channels:
-  - defaults
-dependencies:
-  - r-base=3.5.0=h539fb6c_1
-
-
